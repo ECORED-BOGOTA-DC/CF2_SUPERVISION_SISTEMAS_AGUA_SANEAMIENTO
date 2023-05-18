@@ -2,7 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+  
+    p Para la correcta toma de muestras es importante aclarar los conceptos matemáticos y químicos, con el fin de comprender a profundidad todas las variables que pueden afectar una toma, los diferentes instrumentos que se necesita para esta y el correcto uso de los equipos y con todo esto verificar de manera constante la calidad del agua. 
+    p.mb-5 Sabiendo esto y para una breve revisión de los temas vistos, puede observar el siguiente esquema:
 
     .row.justify-content-center
       .col-lg-10.mb-5
