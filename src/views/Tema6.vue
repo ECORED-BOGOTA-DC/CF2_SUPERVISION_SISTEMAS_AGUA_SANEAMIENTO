@@ -34,6 +34,7 @@
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema6/img03.svg')
         .col-lg-7
+          p De manera general la información requerida al momento del muestreo debe ser como mínimo, la siguiente (Instituto Nacional de Tecnología Agropecuaria [INTA], 2011, p. 3):
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
@@ -170,7 +171,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="BGR13" data-aos="zoom-in")
       .row.justify-content-center(titulo="Recolección de agua potable")
         .col-lg-6.order-lg-1.order-2
-          p Garantizar la calidad del agua para consumo humano es un tema que en el país es controlado y supervisado por diferentes autoridades territoriales como el Ministerios de Protección Social y el Ministerio de Ambiente, Vivienda y Desarrollo Territorial.
+          p Garantizar la calidad del agua para consumo humano es un tema que en el país es controlado y supervisado por diferentes autoridades territoriales como el Ministerio de Protección Social y el Ministerio de Ambiente, Vivienda y Desarrollo Territorial.
           p.mb-0 Este tipo de recolección utiliza la Norma Técnica Colombiana NTC-ISO 5667-5, propuesta por el Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC] (2008).
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema6/img08.png')
@@ -193,8 +194,8 @@
           img(src='@/assets/curso/tema6/img11.jpg')
     
     .BGM07.px-md-5.px-4.py-4.mb-5
-      p Existen algunos parámetros que por sus características o inestabilidad deben ser medidos en el lugar de la recolección (in situ). Entre estos, dependiendo del tipo de agua y su fin es posible encontrar la temperatura, olor, color, pH, cloro, conductividad, entre otros.
-      p.mb-5 La medición de los parámetros in situ se puede hacer directamente en el cuerpo de agua o extrayendo una muestra mediante el uso de los recipientes adecuados. Siendo necesario tener en cuenta las siguientes recomendaciones:
+      p Existen algunos parámetros que por sus características o inestabilidad deben ser medidos en el lugar de la recolección (#[em in situ]). Entre estos, dependiendo del tipo de agua y su fin es posible encontrar la temperatura, olor, color, pH, cloro, conductividad, entre otros.
+      p.mb-5 La medición de los parámetros #[em in situ] se puede hacer directamente en el cuerpo de agua o extrayendo una muestra mediante el uso de los recipientes adecuados. Siendo necesario tener en cuenta las siguientes recomendaciones:
       .row.justify-content-center.align-items-end
         .col-lg-7.order-lg-1.order-2
           ol.lista-ol--cuadro

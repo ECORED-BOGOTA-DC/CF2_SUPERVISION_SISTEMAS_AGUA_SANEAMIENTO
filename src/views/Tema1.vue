@@ -19,7 +19,7 @@
           .bloque-texto-d__autor 
             p.mb-0 Castillo y Salazar, 2018. p. 13
     
-    p.mb-5 Atendiendo lo que dicen los autores mencionados anteriormente, la estadística se divide en dos ramas que son: estadística descriptiva y estadística inferencias, veamos ambas estadísticas a mayor detalle a continuación:
+    p.mb-5 Atendiendo lo que dicen los autores mencionados anteriormente, la estadística se divide en dos ramas que son: estadística descriptiva y estadística Inferencial, veamos ambas estadísticas a mayor detalle a continuación:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta--boton.color-secundario.BGR02.p-5(data-aos="fade-right")
@@ -39,7 +39,7 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.1 Variables en la estadística
     
-    p Cuando se habla de variable se hace referencia a unas propiedades o características que puede variar, y que son susceptibles de medición. Algunos ejemplos pueden ser la edad, color de ojos, potencial de Hidrógeno (PH), temperatura y conductividad, entre otras.
+    p Cuando se habla de variable se hace referencia a unas propiedades o características que puede variar, y que son susceptibles de medición. Algunos ejemplos pueden ser la edad, color de ojos, potencial de Hidrógeno (pH), temperatura y conductividad, entre otras.
     p Atendiendo lo que dicen Castillo y Salazar (2018), estas variables están categorizadas en dos grandes grupos que se describen a continuación:
 
     .row.justify-content-center.mb-4
@@ -94,16 +94,13 @@
                 .col-lg-8
                   p 1,3 - 1,4 - 1,6 - 1,6 - 1,7 - 1,8 -1,9 - 2 - 2,1 - 2,3 - 2,4 - 2,5
                   .row.justify-content-start.mb-4
-                    .col-lg-9.BG05.py-2.px-4
+                    .col-lg.BG05.py-2.px-4
                       img(src='@/assets/curso/tema1/img11.svg')
                   p.mb-0 1,3 - 1,4 - 1,6 - 1,6 - 1,7 - 1,8 - <a style="color: #FF0B0B">1,85</a> - 1,9 - 2 - 2,1 - 2,3 - 2,4 - 2,5
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
             .h4 Moda
             p Es el valor de la variable que más se repite. Un conjunto de datos puede ser unimodal (una sola moda), bimodal (dos modas) o multimodal (más de dos modas) (Castillo y Salazar, 2018. p. 54).
-            .row.justify-content-start
-              .col-lg-7.BG05.py-2.px-4
-                img(src='@/assets/curso/tema1/img12.svg')
           .col-lg-6
             .tarjeta.tarjeta--blanca.pt-4.px-4
               p.mt-5 #[strong Ejemplo:] se realizaron mediciones de caudal obteniendo los siguientes resultados: <br>1,8 - 2,4 - 2 - 1,8 - 1,4 - 1,3 - 1,6 - 1,8 - 2,5 - 2,3 - 2,1 - 1,7
@@ -135,13 +132,13 @@
       p.mb-5 #[strong Ejemplo:] en una práctica de laboratorio cinco personas diferentes realizaron la medición de pH a la misma muestra de agua obteniendo los siguientes resultados:
 
       .row.justify-content-around.align-items-end.mb-4
-        .col-lg-7(data-aos="fade-right")
+        .col-lg-8.px-0.order-lg-1.order-2(data-aos="fade-right")
           .tabla-a.mb-4
-            table.mb-4
+            table.mb-4(style="min-width: 600px")
               thead(style="border-color: #00BCD4")
                 tr
                   th(style="background-color: #00BCD4; font-size: 18px").text-white.text-center Medición
-                  th(style="background-color: #00BCD4; font-size: 18px").text-white.text-center #[em pH (x<sub>i</sub>)]
+                  th(style="background-color: #00BCD4; font-size: 18px").text-white.text-center pH #[em (x<sub>i</sub>)]
                   th(style="background-color: #00BCD4; font-size: 18px").text-white.text-center #[em (x<sub>i</sub> - x̄ )<sup>2</sup>]
               tbody
                 tr
@@ -173,7 +170,7 @@
                 img(src='@/assets/curso/tema1/img15.svg')
               figure.mb-4
                 img(src='@/assets/curso/tema1/img16.svg')
-        .col-lg-4.col-8(data-aos="fade-left")
+        .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img17.svg')
     
     .row.justify-content-center

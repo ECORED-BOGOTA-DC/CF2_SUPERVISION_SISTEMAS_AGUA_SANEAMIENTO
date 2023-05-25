@@ -57,7 +57,7 @@
         p.mb-0 #[strong Práctica de medición de masa y volumen:] con base en el material teórico se iniciará su aplicación en laboratorio. Su finalidad es aprender a utilizar los equipos e instrumentos del laboratorio que son requeridos para la determinación de masa y volumen de diferentes elementos según indicaciones de su instructor.
       li(style="margin-bottom: 15px")
         i.fas.fa-check-circle(style="color: #4DB1F0;")
-        p.mb-0 #[strong Práctica de preparación de soluciones:] su instructor le brindara el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
+        p.mb-0 #[strong Práctica de preparación de soluciones:] su instructor le Brindará el apoyo requerido para que pueda realizar diferentes soluciones en el laboratorio.
  
     .BGR11.p-3.mb-4(data-aos="flip-up")
       .row.justify-content-around.align-items-center

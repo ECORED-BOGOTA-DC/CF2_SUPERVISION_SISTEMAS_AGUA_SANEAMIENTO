@@ -18,14 +18,14 @@
         p.mb-0 La referencia estándar para unidades de medida a nivel mundial es el Sistema Internacional de Unidades (SI) (Mott, 2006, p. 4). Nava et al (2001) indica que este cuenta con siete unidades bases para las magnitudes fundamentales como se muestra en la siguiente tabla:
     
     .row.justify-content-start.align-items-end.mb-5
-      .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-lg-3.px-0.col-6.d-lg-flex.d-none(data-aos="fade-right")
         img(src='@/assets/curso/tema2/img02.svg')
-      .col-lg-7
+      .col-xl-8.col-lg-9.px-0
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-left")
           h5 Tabla 1
-          span Magnitudes fundamentales
+          p.mb-0 Magnitudes fundamentales
         .tabla-a.color-primario(data-aos="zoom-in")
-          table
+          table(style="min-width: 600px")
             caption Fuente: <a style="font-weigh: 400">Nava et al. 2001. p. 20.</a>
             thead(style="border-color: #00BCD4")
               tr
@@ -54,7 +54,7 @@
                 td(style="background-color: #F6F6F6;").text-center kelvin
                 td(style="background-color: #F6F6F6;").text-center K
               tr
-                td(style="background-color: #FFF;") intensidad luminosa
+                td(style="background-color: #FFF;") Intensidad luminosa
                 td(style="background-color: #FFF;").text-center candela
                 td(style="background-color: #FFF;").text-center cd
               tr
@@ -70,12 +70,12 @@
 
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-end.align-items-end
-        .col-lg-7.order-lg-1.order-2
+        .col-xl-8.col-lg-9.order-lg-1.order-2
           .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
             h5 Tabla 2
-            span Prefijos
+            p.mb-0 Prefijos
           .tabla-a.color-primario(data-aos="zoom-in")
-            table
+            table(style="min-width: 600px")
               caption Fuente: <a style="font-weigh: 400">modificado de Nava et al. 2001. p. 35.</a>
               thead(style="border-color: #00BCD4")
                 tr
@@ -121,23 +121,28 @@
     p #[strong Ejemplo 1:] 11500 m = 11,5 * 10<sup>3</sup> m = 11,5 km
     p.mb-5 #[strong Ejemplo 2:] 0,00528 g = 5,28 * 10<sup>-3</sup> g = 5,28 mg
 
-    .row.justify-content-start.mb-4
-      .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
-        .h4.text-white.mb-0 Uso de otras unidades
-      
-    p Existen otras unidades que se usan con bastante frecuencia y que aun sin hacer parte del Sistema Internacional de Unidades, es posible emplearlas en conjunto. Entre estas se encuentran:
-    p #[strong El minuto (m):] 1 m = 60 s
-    p #[strong La hora (h):] 1h = 3600 s
-    p #[strong El día (d):] 1 d = 24 h = 86400 s
-    p #[strong El litro (L,l):] 1 L = 1 dm<sup>3</sup> = 10<sup>-3</sup> m<sup>3</sup>
-    p.mb-5 #[strong La tonelada (t):] 1 t = 10<sup>3</sup> kg
-
     .BGM07.px-md-5.px-4.py-4.mb-5
-      .row.justify-content-start.mb-4
-        .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
-          .h4.text-white.mb-0 Unidades consistentes   
-      p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
-      p Por lo anterior para realizar procedimientos de cancelación de unidades según Mott (2006), se proponen los siguientes pasos:
+      .row.justify-content-center
+        .col-lg-8
+          .row.justify-content-start.mb-4
+            .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
+              .h4.text-white.mb-0 Uso de otras unidades
+            
+          p Existen otras unidades que se usan con bastante frecuencia y que aun sin hacer parte del Sistema Internacional de Unidades, es posible emplearlas en conjunto. Entre estas se encuentran:
+          p #[strong El minuto (m):] 1 m = 60 s
+          p #[strong La hora (h):] 1h = 3600 s
+          p #[strong El día (d):] 1 d = 24 h = 86400 s
+          p #[strong El litro (L,l):] 1 L = 1 dm<sup>3</sup> = 10<sup>-3</sup> m<sup>3</sup>
+          p.mb-5 #[strong La tonelada (t):] 1 t = 10<sup>3</sup> kg
+
+          
+            .row.justify-content-start.mb-4
+              .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
+                .h4.text-white.mb-0 Unidades consistentes   
+            p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
+            p Por lo anterior para realizar procedimientos de cancelación de unidades según Mott (2006), se proponen los siguientes pasos:
+        .col-lg-4.d-lg-flex.d-none
+          img(src='@/assets/curso/tema2/img10.png')
 
     .BGR08.p-4.mb-4
       LineaTiempoC.color-primario(text-small)
@@ -150,7 +155,7 @@
               p Se emplea la ecuación:
               .row.mb-4
                 .col-auto.BG05.px-4.py-2
-                  .h5.mb-0 Q =  v/Q
+                  .h5.mb-0 Q =  v/t
               p Donde Q es caudal, v es volumen y t es tiempo. Luego se aplican los pasos anteriormente propuestos:
               p #[strong 1.] Se despeja t de la ecuación:
               .row
@@ -193,7 +198,7 @@
             p Utilizar los factores de conversión para eliminar las unidades no deseadas, y obtener las que se definieron previamente en el paso dos.
           .col-lg-6
             .tarjeta.tarjeta--blanca.p-4
-              p.mt-5 #[strong 5.] Aplica los factores de conversión (y cancelación de unidades)
+              p.mt-5 #[strong 5.] Aplica los factores de conversión (y cancelación de unidades).
               .row.justify-content-center.mb-5
                 .col-lg-6
                   img(src='@/assets/curso/tema2/img08.svg')

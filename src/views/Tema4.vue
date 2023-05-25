@@ -25,7 +25,7 @@
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-7.order-lg-1.order-2
-          p.mb-0 El manejo de diferentes sustancias químicas para el procesamientos de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado a ese producto; es por esto que debe existir un instrumento que le permita a las personas involucradas empleados o comunidad) o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, como almacenarla y cómo reaccionar ante un accidente con la misma.  
+          p.mb-0 El manejo de diferentes sustancias químicas para el procesamiento de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado a ese producto; es por esto que debe existir un instrumento que le permita a las personas involucradas empleados o comunidad) o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, como almacenarla y cómo reaccionar ante un accidente con la misma.  
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img02.png')
     
@@ -37,7 +37,7 @@
         figure
           img(src='@/assets/curso/tema4/img03.svg')
     
-    p Estas hojas de seguridad son un instrumento que cuenta con 16 ítems o secciones, o también conocidas como fichas de seguridad [FDS], es importante aclarar que según el Ministerio de trabajo en la Resolución 1486 (2008) en el artículo 8º y 9º asigna a los fabricantes e importadores la responsabilidad de elaborar, revisar y actualizar las FDS. 
+    p Estas hojas de seguridad son un instrumento que cuenta con 16 ítems o secciones, o también conocidas como fichas de seguridad [FDS], es importante aclarar que según el Ministerio de Trabajo en la Resolución 1486 (2008) en el artículo 8º y 9º asigna a los fabricantes e importadores la responsabilidad de elaborar, revisar y actualizar las FDS. 
     p.mb-5 Sin embargo, es responsabilidad de todos los que van a manipular estas sustancias, conocer la FDS y apropiar sus 16 ítems básicos que según la Organización de las Naciones Unidas para el Desarrollo Industrial [ONUDI] (2020), son:
 
     .row.justify-content-start.mb-4
@@ -267,7 +267,7 @@
       .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
         .h4.text-white.mb-0 Contenido de los certificados
     
-    p.mb-5 De acuerdo con el Instituto Colombiano de Normas Técnicas y Certificación [Icontec] (2017), en su Norma Técnica Colombiana [NTC] 17025 sobre requisitos generales para la competencia de los laboratorios de ensayo y calibración, indica que el contenido mínimo necesario que debe contener un certificado de calibración se encuentra establecido en la norma internacional ISO 17025 en su numeral 7.8.2.1 Este incluye:
+    p.mb-5 De acuerdo con el Instituto Colombiano de Normas Técnicas y Certificación [Icontec] (2017), en su Norma Técnica Colombiana [NTC] 17025 sobre requisitos generales para la competencia de los laboratorios de ensayo y calibración, indica que el contenido mínimo necesario que debe contener un certificado de calibración se encuentra establecido en la norma internacional ISO 17025 en su numeral 7.8.2.1. Este incluye:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2

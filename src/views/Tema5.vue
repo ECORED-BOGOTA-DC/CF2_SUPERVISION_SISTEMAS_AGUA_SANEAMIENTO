@@ -20,7 +20,7 @@
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2
-          p La disolución es una mezcla homogénea de dos o más sustancias. Donde la que se encuentra en mayor cantidad es denominada solvente o disolvente, y la que se encuentra en menor cantidad es denominada soluto. Las disoluciones pueden ser gaseosas (como aire), sólida (como una aleación) o líquida (como el agua de mar). (Chang, 2010, p. 106).
+          p La disolución es una mezcla homogénea de dos o más sustancias. Donde la que se encuentra en mayor cantidad es denominada solvente o disolvente, y la que se encuentra en menor cantidad es denominada soluto. Las disoluciones pueden ser gaseosas (como aire), sólida (como una aleación) o líquida (como el agua de mar) (Chang, 2010, p. 106).
           .row.justify-content-center
             .col-auto.BG05.py-2.px-4
               .h4.text-center.mb-0  Disolución = soluto + solvente

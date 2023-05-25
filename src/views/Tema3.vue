@@ -24,7 +24,7 @@
             p.text-center.mb-1 #[strong m] = masa
             p.text-center.mb-0 #[strong g] = gravedad
         .col-lg-6(data-aos="fade-left")
-          p Cuando se habla de la masa se hace referencia a la cantidad de materia que contiene un cuerpo. La masa es diferente del peso, ya que este, es el producto de la masa del cuerpo por la fuerza gravitatoria que actúa sobre el mismo, según Alsina, (2015), Su expresión es la siguiente:
+          p Cuando se habla de la masa se hace referencia a la cantidad de materia que contiene un cuerpo. La masa es diferente del peso, ya que este, es el producto de la masa del cuerpo por la fuerza gravitatoria que actúa sobre el mismo, según Alsina, (2015). Su expresión es la siguiente:
           .h4 w=m*g
           p #[strong Dónde]
           p #[strong w] = peso, expresado en kg*m/s2 o newton (N)
@@ -42,7 +42,7 @@
         p También es bastante habitual emplear los múltiplos y submúltiplos del gramo; recordando el uso de prefijos se puede trabajar con miligramos (mg) o kilogramos (kg).
         p.mb-0 1000 g = 1 kg
         p 1000 mg = 1 g
-        p Así, si se tiene un litro de agua a 4°C su masa será de 1000 g o 1 kg.
+        p Así, si se tiene un litro de agua a 4 °C su masa será de 1000 g o 1 kg.
         p.mb-0 Ahora vamos a conocer los diversos tipos de instrumentos para medición de la masa que son:
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img02.png')
@@ -50,11 +50,106 @@
     .BG09.p-4.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema3/img03.svg')
     
-    p.mb-5 La diferencia entre las balanzas puede radicar en los principios que se emplean para la medición, criterio de metrología e incluso por su diseño. Sin embargo, es posible agrupar las balanzas en dos grupos: electrónicas y mecánicas según lo menciona la OMS. (2005).Veamos:
+    p.mb-5 La diferencia entre las balanzas puede radicar en los principios que se emplean para la medición, criterio de metrología e incluso por su diseño. Sin embargo, es posible agrupar las balanzas en dos grupos: electrónicas y mecánicas según lo menciona la OMS (2005).Veamos:
 
     .row.justify-content-center.mb-4
-      .col-lg-5.col-10(data-aos="zoom-in")
-        img(src='@/assets/curso/tema3/img04.svg')
+      .col-lg-3.col-5.px-0(data-aos="fade-right")
+        figure.indicador__container(@click="modal1 = true")
+          img(src='@/assets/curso/tema3/img04a.svg')
+          .indicador--click(v-if="mostrarIndicador")
+      .col-lg-3.col-5.px-0(data-aos="fade-left")
+        figure.indicador__container(@click="modal2 = true")
+          img(src='@/assets/curso/tema3/img04b.svg')
+          .indicador--click(v-if="mostrarIndicador")
+    
+    ModalA(:abrir-modal.sync="modal1")
+      .BGR15.p-5
+        .h4 Balanza mecánica
+        p De acuerdo con la OMS (2005), en su publicación Manual de mantenimiento para equipos de laboratorio (p. 44), algunas de las más comunes son las de resorte, de pesa deslizante, de plato superior, analítica o de sustitución.
+        .tarjeta-avatar-b.mb-4
+          .tarjeta-avatar-b__img(style="left: -4%")
+            img(src='@/assets/curso/tema3/img18.svg')
+          .tarjeta.tarjeta--azul.BGR17.p-4
+            p.ms-5 #[strong Balanza de resorte:] funciona basada en una propiedad mecánica de los resortes. Mientras más grande sea la masa [m] que se coloca en el platillo, mayor será la elongación. Se utilizan si no se requiere gran precisión.
+            p.ms-5.mb-0 #[strong Balanza analítica:] la medición se realiza mediante la comparación de piezas con una masa conocida, con la masa de la sustancia para la que se desea conocer su peso. Estas piezas son seleccionadas de un juego de masas certificado.
+        p Las balanzas mecánicas requieren de una verificación previa a su uso, qué consiste en os siguientes pasos:
+        .row.justify-content-start
+          .col-lg-6
+            ul.lista-ul--color
+              li
+                i.fas.fa-check-circle(style="color: #4DB1F0;")
+                | Verificar la nivelación de la balanza.
+              li
+                i.fas.fa-check-circle(style="color: #4DB1F0;")
+                | Comprobar el punto cero.
+              li
+                i.fas.fa-check-circle(style="color: #4DB1F0;")
+                | Verificar y ajustar la sensibilidad.
+              li
+                i.fas.fa-check-circle(style="color: #4DB1F0;")
+                | Confirmar el freno del platillo.
+          .col-lg-2.col-4
+            img(src='@/assets/curso/tema3/img19.svg')
+
+    ModalA(:abrir-modal.sync="modal2")
+      .BGR16.p-5
+        .h4 Balanzas electrónicas
+        p Estas son las balanzas más frecuentes en los laboratorios. Las balanzas electrónicas involucran tres elementos básicos (Kupper, s.f., como se citó en OMS, 2005, p. 46).
+        .row.justify-content-center
+          .col-lg-7
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                | El platillo de pesaje que transfiere la fuerza del objeto a ser medido, mediante un mecanismo de transferencia - palancas, apoyos, guías -.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                | Un transductor de medida, conocido con el nombre de celda de carga, que produce una señal de salida proporcional a la fuerza de carga, en forma de cambios en el voltaje o de frecuencia.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                | Un circuito electrónico análogo digital que finalmente presenta el resultado del pesaje en forma digital.
+            p En función de su exactitud se pueden clasificar en: especial, alta, media y ordinaria.
+            p #[strong Instalación:] es recomendable tener en cuenta las siguientes condiciones (OMS, 2005, p. 49):
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                | Disponer de un ambiente que no presente corrientes de aire, cambios bruscos de temperatura y que esté libre de polvo.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                | Tener un mesón perfectamente nivelado
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                | Evitar la influencia directa de corrientes de aire y luz solar.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4
+                | Disponer de una toma eléctrica en buenas condiciones y con polo a tierra.
+            p #[strong Utilización:] se deben seguir las siguientes recomendaciones:
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                | Permitir que la balanza se precaliente antes de iniciar las actividades.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                | Verificar que la balanza se encuentre calibrada.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                | Seguir las instrucciones que indica el fabricante. en el manual de operación.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4
+                | Una vez finalizado su uso se debe realizar la limpieza del platillo de pesaje y la cámara de pesaje.
+          .col-lg-5.col-10
+            img(src='@/assets/curso/tema3/img20.svg')
+
 
     separador
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -78,7 +173,7 @@
         .row.justify-content-start.mb-4
           .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
             .h4.text-white.mb-0 Medición de volumen
-        p.mb-0 Para medir el volumen de un líquido teniendo en cuenta lo que dice Brand. (2015), se emplea material volumétrico que puede estar fabricado en plástico o en vidrio; como parte de este material se encuentran los matraces aforados, pipeta aforada, pipeta graduada, probeta graduada y la bureta.
+        p.mb-0 Para medir el volumen de un líquido teniendo en cuenta lo que dice Brand (2015), se emplea material volumétrico que puede estar fabricado en plástico o en vidrio; como parte de este material se encuentran los matraces aforados, pipeta aforada, pipeta graduada, probeta graduada y la bureta.
       .col-lg-5.col-10(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img06.png')
 
@@ -128,13 +223,13 @@
         ul.lista-ul--color
           li
             i.fas.fa-check-circle(style="color: #4DB1F0;")
-            | #[strong Primer paso.] Llenar la pipeta, para esto debe usar SIEMPRE un pipeteador o pi-pump; llene como máximo hasta 10 mm sobre el aforo o línea de graduación de la pipeta.
+            p.mb-0 #[strong Primer paso.] Llenar la pipeta, para esto debe usar SIEMPRE un pipeteador o pi-pump; llene como máximo hasta 10 mm sobre el aforo o línea de graduación de la pipeta.
         p Limpiar y secar la superficie externa de la pipeta. 
         p Mantenga la pipeta al nivel de su vista y sitúe la punta de la pipeta sobre la pared del recipiente, que esté un poco inclinado. Debe entonces descargar el exceso hasta que el menisco alcance el aforo o la línea de graduación.
         ul.lista-ul--color
           li
             i.fas.fa-check-circle(style="color: #4DB1F0;")
-            | #[strong Segundo paso.] Vaciar la pipeta, debe hacerse situando la punta de la pipeta sobre la pared del contenedor, debe tenerse mucha atención al vaciar la pipeta completamente (o hasta el 2º aforo o línea de graduación inferior).
+            p.mb-0 #[strong Segundo paso.] Vaciar la pipeta, debe hacerse situando la punta de la pipeta sobre la pared del contenedor, debe tenerse mucha atención al vaciar la pipeta completamente (o hasta el 2º aforo o línea de graduación inferior).
 
     p.mb-5 Las pipetas pueden dividirse en volumétricas y graduadas, veamos de qué se trata:
 
@@ -218,6 +313,8 @@ export default {
   name: 'Tema3',
   data: () => ({
     mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
   }),
   mounted() {
     this.$nextTick(() => {
