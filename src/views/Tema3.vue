@@ -52,15 +52,16 @@
     
     p.mb-5 La diferencia entre las balanzas puede radicar en los principios que se emplean para la medición, criterio de metrología e incluso por su diseño. Sin embargo, es posible agrupar las balanzas en dos grupos: electrónicas y mecánicas según lo menciona la OMS (2005).Veamos:
 
-    .row.justify-content-center.mb-4
-      .col-lg-3.col-5.px-0(data-aos="fade-right")
-        figure.indicador__container(@click="modal1 = true")
-          img(src='@/assets/curso/tema3/img04a.svg')
-          .indicador--click(v-if="mostrarIndicador")
-      .col-lg-3.col-5.px-0(data-aos="fade-left")
-        figure.indicador__container(@click="modal2 = true")
-          img(src='@/assets/curso/tema3/img04b.svg')
-          .indicador--click(v-if="mostrarIndicador")
+    .BGM07.px-md-5.px-4.py-4.mb-5
+      .row.justify-content-center.mb-4
+        .col-lg-3.col-5.px-0(data-aos="fade-right")
+          figure.indicador__container(@click="modal1 = true")
+            img(src='@/assets/curso/tema3/img04a.svg')
+            .indicador--click(v-if="mostrarIndicador")
+        .col-lg-3.col-5.px-0(data-aos="fade-left")
+          figure.indicador__container(@click="modal2 = true")
+            img(src='@/assets/curso/tema3/img04b.svg')
+            .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
       .BGR15.p-5
@@ -223,9 +224,7 @@
         ul.lista-ul--color
           li
             i.fas.fa-check-circle(style="color: #4DB1F0;")
-            p.mb-0 #[strong Primer paso.] Llenar la pipeta, para esto debe usar SIEMPRE un pipeteador o pi-pump; llene como máximo hasta 10 mm sobre el aforo o línea de graduación de la pipeta.
-        p Limpiar y secar la superficie externa de la pipeta. 
-        p Mantenga la pipeta al nivel de su vista y sitúe la punta de la pipeta sobre la pared del recipiente, que esté un poco inclinado. Debe entonces descargar el exceso hasta que el menisco alcance el aforo o la línea de graduación.
+            p.mb-0 #[strong Primer paso.] Llenar la pipeta, para esto debe usar SIEMPRE un pipeteador o pi-pump; llene como máximo hasta 10 mm sobre el aforo o línea de graduación de la pipeta.<br><br>Limpiar y secar la superficie externa de la pipeta. <br><br>Mantenga la pipeta al nivel de su vista y sitúe la punta de la pipeta sobre la pared del recipiente, que esté un poco inclinado. Debe entonces descargar el exceso hasta que el menisco alcance el aforo o la línea de graduación.
         ul.lista-ul--color
           li
             i.fas.fa-check-circle(style="color: #4DB1F0;")

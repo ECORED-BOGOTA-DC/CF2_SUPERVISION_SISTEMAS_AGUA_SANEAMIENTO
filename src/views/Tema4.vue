@@ -115,7 +115,7 @@
       .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
         .h4.text-white.mb-0 Beneficios de FDS
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-8.mb-lg-0.p-2.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema4/img05.svg')
       .col-lg-8
@@ -208,7 +208,7 @@
           p.mb-0 El manual puede ser tan detallado como se quiera. Hay que tener en cuenta que, si es lo más específico posible, no se dará pauta a la duda.
 
     p Por lo anterior es importante que antes de operar cualquier equipo se reciba la capacitación inicial y se disponga del manual de operación, reduciendo los errores de operación e incluso evitando su avería por una mala manipulación.
-    p A continuación, se presentan a manera de ejemplo algunos manuales de operación para equipos que muy seguramente usted emplea durante las actividades prácticas:
+    p.mb-5 A continuación, se presentan a manera de ejemplo algunos manuales de operación para equipos que muy seguramente usted emplea durante las actividades prácticas:
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")

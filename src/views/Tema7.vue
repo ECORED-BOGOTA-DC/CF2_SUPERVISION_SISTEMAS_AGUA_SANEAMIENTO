@@ -9,7 +9,7 @@
     
     figure.mb-4(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zS7TEBlaWy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Ahora es importante llevar a cabo la revisión de conceptos de química básica y preparación de soluciones en el laboratorio, por lo que su desarrollo se presenta como un componente teórico-práctico, siendo la parte práctica desarrollada de manera presencial en el laboratorio.
     

@@ -13,7 +13,7 @@
       .col-lg-5.z-index-2(data-aos="fade-left")
         .BGR12.py-5.px-4
           p.mb-0 La importancia de realizar muestras constantes de agua, permite identificar de primera mano la calidad de esta y los procedimientos a seguir para mejorarla, esto es un procedimiento que debe hacerse de manera constante y con los rigores establecidos para esto a través de los manuales de procedimiento y normativa vigente.
-      .col-1.d-lg-none.d-flex
+      .col-lg-1.d-lg-none.d-flex
     <br><br>
     p A continuación, se detallan los elementos a tener en cuenta para la realización de este muestreo:
 
@@ -132,7 +132,7 @@
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema6/img05.svg')
     
-    p En el tema tamaño de la muestra, es posible verificar el volumen mínimo de muestra, preservantes y tipos de recipientes requerido, consultado en el #[em Standard Methods for the Examination of Water and Wastewater], capítulo correspondiente a recolección y preservación de muestras (#[em Collection and preservation of samples]) o en los protocolos de monitoreo del Ideam.
+    p.mb-5 En el tema tamaño de la muestra, es posible verificar el volumen mínimo de muestra, preservantes y tipos de recipientes requerido, consultado en el #[em Standard Methods for the Examination of Water and Wastewater], capítulo correspondiente a recolección y preservación de muestras (#[em Collection and preservation of samples]) o en los protocolos de monitoreo del Ideam.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -216,7 +216,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8.cajon.color-acento-botones.p-4(data-aos="flip-up")
-        p.mb-0 Tenga en cuenta que las técnicas de medición en campo, recolección de muestras, rotulado, entre otros temas que conforman el presente componente formativo. Serán profundizados y reforzados mediante las prácticas presenciales programadas para este resultado.
+        p.mx-4.mb-0 Tenga en cuenta que las técnicas de medición en campo, recolección de muestras, rotulado, entre otros temas que conforman el presente componente formativo. Serán profundizados y reforzados mediante las prácticas presenciales programadas para este resultado.
 
 </template>
 

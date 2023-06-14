@@ -20,7 +20,7 @@
     .row.justify-content-start.align-items-end.mb-5
       .col-lg-3.px-0.col-6.d-lg-flex.d-none(data-aos="fade-right")
         img(src='@/assets/curso/tema2/img02.svg')
-      .col-xl-8.col-lg-9.px-0
+      .col-xl-7.col-lg-9.px-0
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-left")
           h5 Tabla 1
           p.mb-0 Magnitudes fundamentales
@@ -70,7 +70,7 @@
 
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-end.align-items-end
-        .col-xl-8.col-lg-9.order-lg-1.order-2
+        .col-xl-7.col-lg-9.order-lg-1.order-2
           .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
             h5 Tabla 2
             p.mb-0 Prefijos
