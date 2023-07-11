@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra la síntesis del componente formativo, Toma de muestras: Variables estadísticas, mediciones de tendencia central, volumen, SI, disoluciones, muestreo, masa, medidas de dispersión.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

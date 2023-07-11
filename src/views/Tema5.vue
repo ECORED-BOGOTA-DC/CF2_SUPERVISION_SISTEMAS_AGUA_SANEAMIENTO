@@ -25,7 +25,7 @@
             .col-auto.BG05.py-2.px-4
               .h4.text-center.mb-0  Disolución = soluto + solvente
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema5/img02.svg')
+          img(src='@/assets/curso/tema5/img02.svg' alt="La imagen muestra un ejemplo de disolución, con una arena como soluto, agua como disolvente y el resultado que es la disolución")
 
       .row.justify-content-start.mb-4
         .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
@@ -38,7 +38,7 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}" alt="La imagen muestra una solución no saturada")
             .tarjeta-flip__contenido.p-xl-5.p-sm-4.p-3
               .text-white.text-center
                 .h4.mt-5 Insaturadas
@@ -47,7 +47,7 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img04.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img04.svg')})`}" alt="La imagen muestra una solución saturada")
             .tarjeta-flip__contenido.p-xl-5.p-sm-4.p-3
               .text-white.text-center
                 .h4.mt-4 Saturadas
@@ -56,7 +56,7 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img05.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/img05.svg')})`}" alt="La imagen muestra una solución supersaturada")
             .tarjeta-flip__contenido.p-xl-5.p-md-4.p-3
               .text-white.text-center
                 .h4 Sobresaturadas
@@ -86,7 +86,7 @@
       p Una dilución es diferente a una disolución. Cuando se habla de diluciones se hace referencia a la adición de solvente a una solución (Cova, 2018, p. 12). Por lo anterior una dilución tiene como objetivo disminuir la concentración de una solución.
       .row.justify-content-center.align-items-center
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema5/img06.svg')
+          img(src='@/assets/curso/tema5/img06.svg' alt="La imagen muestra una solución concentrada y una solución diluida")
         .col-lg-5
           p Su expresión matemática es la siguiente:
           .BG05.py-2.px-4.mb-4

@@ -35,7 +35,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema4/img03.svg')
+          img(src='@/assets/curso/tema4/img03.svg' alt="Muestra tres bases normativas: 01 Decrero 1496 de 2018: Por el cual se crea Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos Químicos y se dictan otras disposiciones en material de seguridad química). 02 NTC 4435 de 1998 (Sistema Globalmente Armonizado de Clasificación y Etiquetado de productos Químicos y se dictan otras disposiciones en material de seguridad química). 03 NTC. 4532 de 1998 (Transporte de Mercancía, tarjetas de emergencia para transporte de materiales, elaboración)")
     
     p Estas hojas de seguridad son un instrumento que cuenta con 16 ítems o secciones, o también conocidas como fichas de seguridad [FDS], es importante aclarar que según el Ministerio de Trabajo en la Resolución 1486 (2008) en el artículo 8º y 9º asigna a los fabricantes e importadores la responsabilidad de elaborar, revisar y actualizar las FDS. 
     p.mb-5 Sin embargo, es responsabilidad de todos los que van a manipular estas sustancias, conocer la FDS y apropiar sus 16 ítems básicos que según la Organización de las Naciones Unidas para el Desarrollo Industrial [ONUDI] (2020), son:

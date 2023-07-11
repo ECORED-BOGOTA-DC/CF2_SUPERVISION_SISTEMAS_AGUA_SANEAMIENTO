@@ -16,7 +16,7 @@
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/img01.svg')
+          img(src='@/assets/curso/tema3/img01.svg' alt="Imagen decorativa")
         .col-lg-2.col-4(data-aos="flip-up")
           .BG05.py-2.px-4
             .h3.text-center.mb-3 w = mg
@@ -45,10 +45,10 @@
         p Así, si se tiene un litro de agua a 4 °C su masa será de 1000 g o 1 kg.
         p.mb-0 Ahora vamos a conocer los diversos tipos de instrumentos para medición de la masa que son:
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img02.png')
+        img(src='@/assets/curso/tema3/img02.png' alt="Imagen decorativa")
 
     .BG09.p-4.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema3/img03.svg')
+      img(src='@/assets/curso/tema3/img03.svg' alt="Muestra diferentes balanzas, pesas, electrónicas, mecánicas entre otras")
     
     p.mb-5 La diferencia entre las balanzas puede radicar en los principios que se emplean para la medición, criterio de metrología e incluso por su diseño. Sin embargo, es posible agrupar las balanzas en dos grupos: electrónicas y mecánicas según lo menciona la OMS (2005).Veamos:
 
@@ -56,11 +56,11 @@
       .row.justify-content-center.mb-4
         .col-lg-3.col-5.px-0(data-aos="fade-right")
           figure.indicador__container(@click="modal1 = true")
-            img(src='@/assets/curso/tema3/img04a.svg')
+            img(src='@/assets/curso/tema3/img04a.svg' alt="Muestra una balanza en un lado mecánica")
             .indicador--click(v-if="mostrarIndicador")
         .col-lg-3.col-5.px-0(data-aos="fade-left")
           figure.indicador__container(@click="modal2 = true")
-            img(src='@/assets/curso/tema3/img04b.svg')
+            img(src='@/assets/curso/tema3/img04b.svg' alt="Muestra una balanza en un lado electrónica")
             .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
@@ -69,7 +69,7 @@
         p De acuerdo con la OMS (2005), en su publicación Manual de mantenimiento para equipos de laboratorio (p. 44), algunas de las más comunes son las de resorte, de pesa deslizante, de plato superior, analítica o de sustitución.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img(style="left: -4%")
-            img(src='@/assets/curso/tema3/img18.svg')
+            img(src='@/assets/curso/tema3/img18.svg' alt="Imagen decorativa")
           .tarjeta.tarjeta--azul.BGR17.p-4
             p.ms-5 #[strong Balanza de resorte:] funciona basada en una propiedad mecánica de los resortes. Mientras más grande sea la masa [m] que se coloca en el platillo, mayor será la elongación. Se utilizan si no se requiere gran precisión.
             p.ms-5.mb-0 #[strong Balanza analítica:] la medición se realiza mediante la comparación de piezas con una masa conocida, con la masa de la sustancia para la que se desea conocer su peso. Estas piezas son seleccionadas de un juego de masas certificado.
@@ -90,7 +90,7 @@
                 i.fas.fa-check-circle(style="color: #4DB1F0;")
                 | Confirmar el freno del platillo.
           .col-lg-2.col-4
-            img(src='@/assets/curso/tema3/img19.svg')
+            img(src='@/assets/curso/tema3/img19.svg' alt="Imagen decorativa")
 
     ModalA(:abrir-modal.sync="modal2")
       .BGR16.p-5
@@ -149,7 +149,7 @@
                   span 4
                 | Una vez finalizado su uso se debe realizar la limpieza del platillo de pesaje y la cámara de pesaje.
           .col-lg-5.col-10
-            img(src='@/assets/curso/tema3/img20.svg')
+            img(src='@/assets/curso/tema3/img20.svg' alt="Imagen decorativa")
 
 
     separador
@@ -161,7 +161,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .BGR10.px-5.py-4
-          img(src='@/assets/curso/tema3/img05.svg')
+          img(src='@/assets/curso/tema3/img05.svg' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         p.mb-5 Es posible emplear otras unidades en conjunto con el SI, en este caso para el volumen se emplea el litro (L). Así las cosas, se puede plantear las siguientes equivalencias:
         .row.justify-content-center
@@ -176,7 +176,7 @@
             .h4.text-white.mb-0 Medición de volumen
         p.mb-0 Para medir el volumen de un líquido teniendo en cuenta lo que dice Brand (2015), se emplea material volumétrico que puede estar fabricado en plástico o en vidrio; como parte de este material se encuentran los matraces aforados, pipeta aforada, pipeta graduada, probeta graduada y la bureta.
       .col-lg-5.col-10(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img06.png')
+        img(src='@/assets/curso/tema3/img06.png' alt="Imagen decorativa")
 
     .row.justify-content-start.mb-4
       .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
@@ -186,9 +186,9 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema3/img07.svg')
+        img(src='@/assets/curso/tema3/img07.svg' alt="Muestra un matraz aforado ")
       .col-lg-4.col-8(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img08.svg')
+        img(src='@/assets/curso/tema3/img08.svg' alt="Muestra unas pipetas")
     
     p.mb-5 Carranza (2013), realiza una descripción de los principales materiales volumétricos así:
 
@@ -199,13 +199,13 @@
             p Son usados principalmente para la preparación de soluciones patrón. Están calibrados “para contener”. Los matraces aforados son indispensables para preparar disoluciones y soluciones medidas. 
             p.mb-0 Para su uso ponga primero el peso exacto del soluto en el matraz. Luego llene el matraz con el solvente hasta casi la mitad del volumen y mezcle el contenido totalmente. Después llene con más solvente justo un poco por debajo del aforo. Añada más solvente para que el menisco esté exactamente a la misma altura que el aforo (línea marcada en la parte superior del cuello). Ponga atención a leer el menisco a la misma altura que el ojo y para no mojar la pared del cuello por encima del aforo.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img09.png')
+            img(src='@/assets/curso/tema3/img09.png' alt="Imagen decorativa")
       .p-md-4.p-3(titulo="Probetas")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             p.mb-0 Son usadas para la medida exacta de líquidos y están calibradas “para contener”. Para su uso rellene la probeta hasta que el nivel del menisco llegue a la marca deseada y preste especial atención al posible error de paralaje al leer el menisco. Procure no mojar la pared de la probeta sobre la marca.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img10.png')
+            img(src='@/assets/curso/tema3/img10.png' alt="Imagen decorativa")
       .p-md-4.p-3(titulo="Buretas")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
@@ -213,13 +213,13 @@
             p Leyendo el menisco al nivel de su altura, vacíe la solución hasta el punto exacto del cero. En este momento, tiene que retirar las gotas en la punta de la bureta. Tiene que abrir la llave muy despacio y empezar la valoración y también evitar que la punta de la bureta no toque la pared del vaso que use. 
             p.mb-0 Cuando la muestra que esté valorando cambie el color, cierre la llave de la bureta y espere 30 segundos en las buretas con tiempo de espera. 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema3/img11.png')
+            img(src='@/assets/curso/tema3/img11.png' alt="Imagen decorativa")
 
     p.mb-5 Otro material utilizado para medir volumen son las conocidas #[strong Pipetas], las cuales están calibradas “para verter”, y su manera de utilización es: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema3/img12.png')
+        img(src='@/assets/curso/tema3/img12.png' alt="Imagen decorativa")
       .col-lg-7(data-aos="fade-left")
         ul.lista-ul--color
           li
@@ -246,7 +246,7 @@
       .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/img13.png' alt='AvatarTop' style='width:600px')
+          img(src='@/assets/curso/tema3/img13.png' alt="Imagen decorativa" style='width:600px')
           .tarjetas-up_card.tarjeta.color-acento-contenido.p-xl-4.p-lg-3.p-4
             .title.d-flex.justify-content-center.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
               span
@@ -257,7 +257,7 @@
       .col-lg-6.col-md-10.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/img14.png' alt='AvatarTop' style='width:600px')
+          img(src='@/assets/curso/tema3/img14.png' alt="Imagen decorativa" style='width:600px')
           .tarjetas-up_card.tarjeta.color-primario.p-xl-4.p-lg-3.p-4
             .title.d-flex.justify-content-center.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
               span
@@ -276,7 +276,7 @@
       .row.justify-content-center.mb-4
         .col-lg-6(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/tema3/img15.svg')
+            img(src='@/assets/curso/tema3/img15.svg' alt="Muestra una lectura de meniscos, donde aparece el aforo/ división de la escala más el menisco")
             figcaption Fuente: <a style="font-weigh: 900">Brand (2015), p. 10.</a>
       
       p.mb-0 La lectura de la medida se debe realizar de tal manera que los ojos de la persona se encuentren a la altura del menisco.
@@ -292,7 +292,7 @@
           p Siempre que se utilice una disolución de limpieza, el recipiente se lavará cuidadosamente, primero con agua corriente y después con agua destilada para verificar que las paredes queden uniformemente humedecidas.
           p.mb-0 El material aforado no debe ser secado en estufa ya que puede provocar distorsión del vidrio y causar un cambio en el volumen.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema3/img16.png')
+          img(src='@/assets/curso/tema3/img16.png' alt="Imagen decorativa")
     
     .row.justify-content-start.mb-4
       .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
@@ -301,7 +301,7 @@
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/img17.png')
+          img(src='@/assets/curso/tema3/img17.png' alt="Imagen decorativa")
         .col-lg-7
           p.mb-0 A diferencia del material que se ha descrito, el material no calibrado es empleado para almacenar, mezclar, realizar pruebas de precipitado, entre otras actividades que no requieran un volumen preciso. No es empleado para medir ya que la medición en este tipo de elementos es inexacta. Como ejemplo de estos es posible mencionar el #[em beaker, erlenmeyer], tubos de ensayo, entre otros. 
 

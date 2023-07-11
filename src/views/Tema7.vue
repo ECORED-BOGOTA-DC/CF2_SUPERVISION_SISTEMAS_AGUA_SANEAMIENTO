@@ -7,6 +7,7 @@
         span 7
       h1 Rotulado del muestreo
     
+    p.mb-5 A continuación, se encuentra el proceso de rotulado del muestreo:
     figure.mb-4(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/zS7TEBlaWy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img01.svg')
+        img(src='@/assets/curso/tema1/img01.svg' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         .bloque-texto-d.color-secundario.p-4(style="border-top: initial")
           .bloque-texto-d__texto.mb-2
@@ -25,13 +25,13 @@
       .col-md.tarjeta--boton.color-secundario.BGR02.p-5(data-aos="fade-right")
         .row.justify-content-center.mb-4
           .col-lg-4.col-6
-            img(src='@/assets/curso/tema1/img02.svg')
+            img(src='@/assets/curso/tema1/img02.svg' alt="Imagen decorativa")
         h4.text-center Estadística descriptiva
         p.text-center.mb-0 Permite analizar todo un conjunto de datos, de los cuales se extraen conclusiones valederas, únicamente para ese conjunto. Un ejemplo sería el número de goles de un determinado jugador o el número de muestras rechazadas en un laboratorio.
       .col-md.tarjeta--boton.color-primario.BGR01.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-lg-4.col-6
-            img(src='@/assets/curso/tema1/img03.svg')
+            img(src='@/assets/curso/tema1/img03.svg' alt="Imagen decorativa")
         h4.text-center Estadística inferencial
         p.text-center.mb-0 Busca obtener conclusiones generales de una determinada población, mediante el estudio de una muestra representativa sacada de ella. Un ejemplo sería la percepción de inseguridad en una ciudad, o la calidad de un cuerpo de agua.
 
@@ -43,12 +43,40 @@
     p Atendiendo lo que dicen Castillo y Salazar (2018), estas variables están categorizadas en dos grandes grupos que se describen a continuación:
 
     .row.justify-content-center.mb-4
-      .col-lg-10.BG03.px-0
+      .col-xl-10.BG03.px-0
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img04.svg')
+            .BGR18.hg-02.pe-4.py-4
+              .BG20.hg-01.p-4.mb-2
+                .row.justify-content-center
+                  .col-5.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/img18.svg' alt="Imagen decorativa")
+                  .col-lg-7
+                    p.mb-0 #[strong Variables cuantitativas]: expresan valores numéricos. Pueden ser discretas (se determinan mediante conteos) o continuas (se determinan mediante medición).
+              .BG20.hg-01.p-4
+                .row.justify-content-center
+                  .col-5.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/img19.svg' alt="Imagen decorativa")
+                  .col-lg-7
+                    p.mb-0 #[strong Variables cualitativas]: expresan atributos o características. Algunos ejemplos pueden ser: nacionalidad, idioma, color de ojos, entre otras.
           .col-lg-6(data-aos="fade-left")
-            img(src='@/assets/curso/tema1/img05.svg')
+            .BGR19.hg-02.pe-4.py-4
+              .BG20.hg-01.px-4.pt-4.mb-2
+                .row.justify-content-center
+                  .col-lg-5.d-lg-flex.d-none.order-lg-1
+                  .col-lg-7.order-lg-2.order-2
+                    p.mb-0 #[strong Variables discretas]: son aquellas que no admiten valores intermedios entre dos números.
+                  .col-6.img-03.mb-lg-0.order-lg-3.order-1.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/img20.svg' alt="Imagen decorativa")
+                  .col-lg-6.d-lg-flex.d-none.order-lg-4
+              .BG20.hg-01.p-4.mb-2
+                .row.justify-content-center
+                  .col-lg-5.d-lg-flex.d-none.order-lg-1
+                  .col-lg-7.order-lg-2.order-2
+                    p.mb-0 #[strong Variables continuas]: son aquellas que puede tomar valores comprendidos entre dos números.
+                  .col-7.img-04.mb-lg-0.order-lg-3.order-1.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/img21.svg' alt="Imagen decorativa")
+                  .col-lg-5.d-lg-flex.d-none.order-lg-4
 
     separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -65,11 +93,11 @@
             p Su cálculo para datos desagrupados se efectúa mediante la siguiente ecuación:
             .row.justify-content-start
               .col-lg-7.BG05.py-2.px-4
-                img(src='@/assets/curso/tema1/img06.svg')
+                img(src='@/assets/curso/tema1/img06.svg' alt="Imagen decorativa")
           .col-lg-6
             .tarjeta.tarjeta--blanca.pt-4.px-4
               p.mt-5 #[strong Ejemplo:] hallar el caudal promedio a partir de las siguientes mediciones realizadas en un período de tiempo determinado: 1,8 l/s, 2,4 l/s, 2 l/s, 1,6 l/s, 1,4 l/s
-              img(src='@/assets/curso/tema1/img07.svg')
+              img(src='@/assets/curso/tema1/img07.svg' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-5.mb-lg-0.mb-4
             .h4 Mediana
@@ -78,11 +106,11 @@
             p En caso de que el número de datos sea par:
             .row.justify-content-start.mb-4
               .col-lg-7.BG05.py-2.px-4
-                img(src='@/assets/curso/tema1/img08.svg')
+                img(src='@/assets/curso/tema1/img08.svg' alt="Imagen decorativa")
             p En caso de que el número de datos sea impar:
             .row.justify-content-start.mb-4
               .col-lg-7.BG05.py-2.px-4
-                img(src='@/assets/curso/tema1/img09.svg')
+                img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
             p.mb-0 En los dos casos es necesario primero ordenar los datos de menor a mayor o viceversa (Castillo y Salazar, 2018. pp. 52-53).
           .col-lg-7
             .tarjeta.tarjeta--blanca.pt-4.px-4
@@ -90,12 +118,12 @@
               hr
               .row.justify-content-center.align-items-end.mb-4
                 .col-lg-4.col-6.mb-lg-0.mb-4
-                  img(src='@/assets/curso/tema1/img10.svg')
+                  img(src='@/assets/curso/tema1/img10.svg' alt="Imagen decorativa")
                 .col-lg-8
                   p 1,3 - 1,4 - 1,6 - 1,6 - 1,7 - 1,8 -1,9 - 2 - 2,1 - 2,3 - 2,4 - 2,5
                   .row.justify-content-start.mb-4
                     .col-lg.BG05.py-2.px-4
-                      img(src='@/assets/curso/tema1/img11.svg')
+                      img(src='@/assets/curso/tema1/img11.svg' alt="Imagen decorativa")
                   p.mb-0 1,3 - 1,4 - 1,6 - 1,6 - 1,7 - 1,8 - <a style="color: #FF0B0B">1,85</a> - 1,9 - 2 - 2,1 - 2,3 - 2,4 - 2,5
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
@@ -110,7 +138,7 @@
                 .col-lg-6
                   p El valor que más se repite es 1,8
                 .col-lg-4
-                  img(src='@/assets/curso/tema1/img13.svg')
+                  img(src='@/assets/curso/tema1/img13.svg' alt="Imagen decorativa")
 
     separador
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -127,14 +155,14 @@
 
       .row.justify-content-center.mb-4
         .col-lg-2.col-md-4.col-6(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img14.svg')
+          img(src='@/assets/curso/tema1/img14.svg' alt="Imagen decorativa")
       
       p.mb-5 #[strong Ejemplo:] en una práctica de laboratorio cinco personas diferentes realizaron la medición de pH a la misma muestra de agua obteniendo los siguientes resultados:
 
       .row.justify-content-around.align-items-end.mb-4
         .col-lg-8.px-0.order-lg-1.order-2(data-aos="fade-right")
-          .tabla-a.mb-4
-            table.mb-4(style="min-width: 600px")
+          .tabla-a.mb-4(alt="Muestra una práctica de laboratorio cinco personas diferentes realizaron la medición de pH a la misma muestra de agua")
+            table(style="min-width: 600px")
               thead(style="border-color: #00BCD4")
                 tr
                   th(style="background-color: #00BCD4; font-size: 18px").text-white.text-center Medición
@@ -167,11 +195,11 @@
           .row.justify-content-end
             .col-lg-6
               figure.text-end.mb-4
-                img(src='@/assets/curso/tema1/img15.svg')
+                img(src='@/assets/curso/tema1/img15.svg' alt="Imagen decorativa")
               figure.mb-4
-                img(src='@/assets/curso/tema1/img16.svg')
+                img(src='@/assets/curso/tema1/img16.svg' alt="Imagen decorativa")
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/img17.svg')
+          img(src='@/assets/curso/tema1/img17.svg' alt="Imagen decorativa")
     
     .row.justify-content-center
       .col-lg-8(data-aos="flip-up")

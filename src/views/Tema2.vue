@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema2/img01.png')
+        img(src='@/assets/curso/tema2/img01.png' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         p Un sistema de unidades, es un conjunto de medidas estándar cuyo objetivo es medir las cantidades fundamentales de longitud, masa, tiempo y fuerza. Este sistema contiene unidades básicas y unidades derivadas; entre los sistemas más comunes se encuentran los siguientes:
         .row.justify-content-start.mb-4
@@ -19,12 +19,12 @@
     
     .row.justify-content-start.align-items-end.mb-5
       .col-lg-3.px-0.col-6.d-lg-flex.d-none(data-aos="fade-right")
-        img(src='@/assets/curso/tema2/img02.svg')
+        img(src='@/assets/curso/tema2/img02.svg' alt="Imagen decorativa")
       .col-xl-7.col-lg-9.px-0
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-left")
           h5 Tabla 1
           p.mb-0 Magnitudes fundamentales
-        .tabla-a.color-primario(data-aos="zoom-in")
+        .tabla-a.color-primario(data-aos="zoom-in" alt="Muestra Magnitudes fundamentales, teniendo en cuenta magnitud, la unidad y el simbolo")
           table(style="min-width: 600px")
             caption Fuente: <a style="font-weigh: 400">Nava et al. 2001. p. 20.</a>
             thead(style="border-color: #00BCD4")
@@ -74,7 +74,7 @@
           .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
             h5 Tabla 2
             p.mb-0 Prefijos
-          .tabla-a.color-primario(data-aos="zoom-in")
+          .tabla-a.color-primario(data-aos="zoom-in" alt="Muestra los Prefijos, muestra símbolo, factor y equivalente")
             table(style="min-width: 600px")
               caption Fuente: <a style="font-weigh: 400">modificado de Nava et al. 2001. p. 35.</a>
               thead(style="border-color: #00BCD4")
@@ -115,7 +115,7 @@
                   td(style="background-color: #FFF;").text-center 10<sup>-9</sup>
                   td(style="background-color: #FFF;").text-center 0,000000001
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema2/img03.svg')
+          img(src='@/assets/curso/tema2/img03.svg' alt="Imagen decorativa")
     
     p Estos prefijos se emplean para facilitar la expresión de cantidades, veamos los siguientes ejemplos:
     p #[strong Ejemplo 1:] 11500 m = 11,5 * 10<sup>3</sup> m = 11,5 km
@@ -142,7 +142,7 @@
             p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
             p Por lo anterior para realizar procedimientos de cancelación de unidades según Mott (2006), se proponen los siguientes pasos:
         .col-lg-4.d-lg-flex.d-none
-          img(src='@/assets/curso/tema2/img10.png')
+          img(src='@/assets/curso/tema2/img10.png' alt="Imagen decorativa")
 
     .BGR08.p-4.mb-4
       LineaTiempoC.color-primario(text-small)
@@ -170,7 +170,7 @@
                 .col-lg-6.mb-lg-0.mb-4
                   p #[strong 2.] Propone las unidades del resultado, para este caso pueden ser minutos, ya que el ejercicio no especifica las unidades finales.
                 .col-lg-6
-                  img(src='@/assets/curso/tema2/img04.svg')
+                  img(src='@/assets/curso/tema2/img04.svg' alt="Imagen decorativa")
         .row.justify-content-center(titulo="3")
           .col-lg-4.mb-lg-0.mb-4
             p Sustituir en la ecuación los valores con sus respectivas unidades.
@@ -179,11 +179,11 @@
               p #[strong 3.] Se sustituye en la ecuación
               .row.justify-content-center.mb-4
                 .col-lg-6
-                  img(src='@/assets/curso/tema2/img05.svg')
+                  img(src='@/assets/curso/tema2/img05.svg' alt="Imagen decorativa")
               p Simplifica la fracción para
               .row.justify-content-center
                 .col-lg-6
-                  img(src='@/assets/curso/tema2/img06.svg')
+                  img(src='@/assets/curso/tema2/img06.svg' alt="Imagen decorativa")
         .row.justify-content-center(titulo="4")
           .col-lg-4.mb-lg-0.mb-4
             p Cancelar las unidades de los términos que parezcan en el numerador y el denominador.
@@ -192,7 +192,7 @@
               p.mt-5 #[strong 4.] Se cancelan las unidades y se aplican los factores de conversión (paso 5).
               .row.justify-content-center.mb-5
                 .col-lg-6
-                  img(src='@/assets/curso/tema2/img07.svg')
+                  img(src='@/assets/curso/tema2/img07.svg' alt="Imagen decorativa")
         .row.justify-content-center(titulo="5")
           .col-lg-4.mb-lg-0.mb-4
             p Utilizar los factores de conversión para eliminar las unidades no deseadas, y obtener las que se definieron previamente en el paso dos.
@@ -201,7 +201,7 @@
               p.mt-5 #[strong 5.] Aplica los factores de conversión (y cancelación de unidades).
               .row.justify-content-center.mb-5
                 .col-lg-6
-                  img(src='@/assets/curso/tema2/img08.svg')
+                  img(src='@/assets/curso/tema2/img08.svg' alt="Imagen decorativa")
         .row.justify-content-center(titulo="6")
           .col-lg-4.mb-lg-0.mb-4
             p Realizar el cálculo.
@@ -210,7 +210,7 @@
               p.mt-5 #[strong 6.] Se realiza el cálculo para obtener el resultado.
               .row.justify-content-center.mb-5
                 .col-lg-8
-                  img(src='@/assets/curso/tema2/img09.svg')
+                  img(src='@/assets/curso/tema2/img09.svg' alt="Imagen decorativa")
 
 
 </template>
