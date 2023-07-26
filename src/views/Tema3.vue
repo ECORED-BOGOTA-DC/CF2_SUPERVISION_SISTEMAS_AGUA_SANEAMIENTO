@@ -73,7 +73,7 @@
           .tarjeta.tarjeta--azul.BGR17.p-4
             p.ms-5 #[strong Balanza de resorte:] funciona basada en una propiedad mecánica de los resortes. Mientras más grande sea la masa [m] que se coloca en el platillo, mayor será la elongación. Se utilizan si no se requiere gran precisión.
             p.ms-5.mb-0 #[strong Balanza analítica:] la medición se realiza mediante la comparación de piezas con una masa conocida, con la masa de la sustancia para la que se desea conocer su peso. Estas piezas son seleccionadas de un juego de masas certificado.
-        p Las balanzas mecánicas requieren de una verificación previa a su uso, qué consiste en os siguientes pasos:
+        p Las balanzas mecánicas requieren de una verificación previa a su uso, qué consiste en los siguientes pasos:
         .row.justify-content-start
           .col-lg-6
             ul.lista-ul--color
@@ -143,7 +143,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 3
-                | Seguir las instrucciones que indica el fabricante. en el manual de operación.
+                | Seguir las instrucciones que indica el fabricante en el manual de operación.
               li 
                 .lista-ol--cuadro__vineta
                   span 4

@@ -70,7 +70,7 @@
 
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-end.align-items-end
-        .col-xl-7.col-lg-9.order-lg-1.order-2
+        .col-xxl-7.col-xl-8.col-lg-9.order-lg-1.order-2
           .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
             h5 Tabla 2
             p.mb-0 Prefijos
@@ -114,7 +114,7 @@
                   td(style="background-color: #FFF;").text-center n
                   td(style="background-color: #FFF;").text-center 10<sup>-9</sup>
                   td(style="background-color: #FFF;").text-center 0,000000001
-        .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        .col-lg-3.d-lg-flex.d-none(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img03.svg' alt="Imagen decorativa")
     
     p Estos prefijos se emplean para facilitar la expresión de cantidades, veamos los siguientes ejemplos:
@@ -141,7 +141,7 @@
                 .h4.text-white.mb-0 Unidades consistentes   
             p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
             p Por lo anterior para realizar procedimientos de cancelación de unidades según Mott (2006), se proponen los siguientes pasos:
-        .col-lg-4.d-lg-flex.d-none
+        .col-lg-4.pt-4.d-lg-flex.d-none
           img(src='@/assets/curso/tema2/img10.png' alt="Imagen decorativa")
 
     .BGR08.p-4.mb-4
