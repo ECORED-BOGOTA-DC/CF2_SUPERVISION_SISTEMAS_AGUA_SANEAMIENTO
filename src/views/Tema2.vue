@@ -22,7 +22,7 @@
         img(src='@/assets/curso/tema2/img02.svg' alt="Imagen decorativa")
       .col-xl-7.col-lg-9.px-0
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-left")
-          h5 Tabla 1
+          h5 Tabla 1.
           p.mb-0 Magnitudes fundamentales
         .tabla-a.color-primario(data-aos="zoom-in" alt="Muestra Magnitudes fundamentales, teniendo en cuenta magnitud, la unidad y el simbolo")
           table(style="min-width: 600px")
