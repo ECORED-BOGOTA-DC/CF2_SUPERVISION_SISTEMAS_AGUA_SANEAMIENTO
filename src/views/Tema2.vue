@@ -22,7 +22,7 @@
         img(src='@/assets/curso/tema2/img02.svg' alt="Imagen decorativa")
       .col-xl-7.col-lg-9.px-0
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-left")
-          h5 Tabla 1.
+          h5 Tabla 2.
           p.mb-0 Magnitudes fundamentales
         .tabla-a.color-primario(data-aos="zoom-in" alt="Muestra Magnitudes fundamentales, teniendo en cuenta magnitud, la unidad y el simbolo")
           table(style="min-width: 600px")
@@ -72,7 +72,7 @@
       .row.justify-content-end.align-items-end
         .col-xxl-7.col-xl-8.col-lg-9.order-lg-1.order-2
           .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
-            h5 Tabla 2
+            h5 Tabla 3.
             p.mb-0 Prefijos
           .tabla-a.color-primario(data-aos="zoom-in" alt="Muestra los Prefijos, muestra símbolo, factor y equivalente")
             table(style="min-width: 600px")
@@ -139,8 +139,8 @@
             .row.justify-content-start.mb-4
               .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
                 .h4.text-white.mb-0 Unidades consistentes   
-            p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
-            p Por lo anterior para realizar procedimientos de cancelación de unidades según Mott (2006), se proponen los siguientes pasos:
+            p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio, como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
+            p Por lo anterior, para realizar procedimientos de cancelación de unidades según, Mott (2006), se proponen los siguientes pasos:
         .col-lg-4.pt-4.d-lg-flex.d-none
           img(src='@/assets/curso/tema2/img10.png' alt="Imagen decorativa")
 

@@ -288,12 +288,6 @@ export default {
         'http://www.unl.edu.ar/ingreso/cursos/quimica/wp-content/uploads/sites/4/2016/09/quimica_20140911_07_anexo.pdf',
     },
     {
-      referencia:
-        'BRAND GMBH + CO KG. (2015). Información sobre la medición del volumen.',
-      link:
-        'https://www.brand.de/fileadmin/user/pdf/Information_Vol/Brochuere_Volumenmessung_ES.pdf',
-    },
-    {
       referencia: 'Chang, R. (2002). Química, séptima edición. Mc Graw Hill.',
     },
     {
@@ -373,17 +367,6 @@ export default {
     {
       referencia:
         'Petrucci, R., Herring, F., Madura, J.y Bissonnette, C. (2018) Química general. Undécima edición. Pearson Educación S.A.',
-    },
-    {
-      referencia:
-        'Salazar, C. y Castillo, S. (2018). Fundamentos básicos de estadística.',
-      link:
-        'http://www.dspace.uce.edu.ec/bitstream/25000/13720/3/Fundamentos%20B%C3%A1sicos%20de%20Estad%C3%ADstica-Libro.pdf',
-    },
-    {
-      referencia:
-        'Universidad Tecnológica de Pereira. (2019). Procedimiento para manejo de equipos.',
-      link: 'http://app4.utp.edu.co/calidad_bibi/ver/?iddoc=11060&tipo=1915',
     },
   ],
   creditos: [

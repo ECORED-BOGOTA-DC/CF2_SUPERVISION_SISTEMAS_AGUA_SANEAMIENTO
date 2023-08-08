@@ -271,11 +271,18 @@
         .h4.text-white.mb-0 Lectura del menisco
     
     .BGM07.px-md-5.px-4.py-4.mb-5
-      p.mb-5 Durante la medición del volumen de líquidos se debe tener en cuenta la ubicación del menisco en relación con la marca de lectura. El término 'menisco' se utiliza para describir la curvatura de la superficie del líquido. El menisco adopta forma convexa o cóncava. La formación de la curvatura resulta de la relación de fuerzas entre adhesión y cohesión (Brand, 2015, p.10).
-
+      .bloque-texto-b.color-primario.mb-4
+        .bloque-texto-b__texto
+          i.fas.fa-quote-left(style="font-size: 2em")
+          p Durante la medición del volumen de líquidos se debe tener en cuenta la ubicación del menisco en relación con la marca de lectura. El término 'menisco' se utiliza para describir la curvatura de la superficie del líquido. El menisco adopta forma convexa o cóncava. La formación de la curvatura resulta de la relación de fuerzas entre adhesión y cohesión.
+          i.fas.fa-quote-right(style="font-size: 2em")
+      .h5.text-end.mb-5 Brand, 2015, p.10
       .row.justify-content-center.mb-4
-        .col-lg-6(data-aos="zoom-in")
-          figure
+        .col-lg-6
+          .titulo-sexto.color-secundario
+            h5 Figura 1.
+            span Lectura de menisco
+          figure(data-aos="zoom-in")
             img(src='@/assets/curso/tema3/img15.svg' alt="Muestra una lectura de meniscos, donde aparece el aforo/ división de la escala más el menisco")
             figcaption Fuente: <a style="font-weigh: 900">Brand (2015), p. 10.</a>
       
@@ -290,7 +297,7 @@
         .col-lg-7.order-lg-1.order-2
           p Para la limpieza, muchas veces es suficiente una disolución de un detergente común. En caso de que no fuera suficiente, se puede utilizar mezcla crómica o una disolución de hidróxido de potasio en alcohol (esta última no debe dejarse mucho tiempo en contacto con el vidrio porque lo ataca lentamente).
           p Siempre que se utilice una disolución de limpieza, el recipiente se lavará cuidadosamente, primero con agua corriente y después con agua destilada para verificar que las paredes queden uniformemente humedecidas.
-          p.mb-0 El material aforado no debe ser secado en estufa ya que puede provocar distorsión del vidrio y causar un cambio en el volumen.
+          p.mb-0 El material aforado no debe ser secado en estufa, ya que puede provocar distorsión del vidrio y causar un cambio en el volumen.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img16.png' alt="Imagen decorativa")
     
@@ -303,7 +310,7 @@
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img17.png' alt="Imagen decorativa")
         .col-lg-7
-          p.mb-0 A diferencia del material que se ha descrito, el material no calibrado es empleado para almacenar, mezclar, realizar pruebas de precipitado, entre otras actividades que no requieran un volumen preciso. No es empleado para medir ya que la medición en este tipo de elementos es inexacta. Como ejemplo de estos es posible mencionar el #[em beaker, erlenmeyer], tubos de ensayo, entre otros. 
+          p.mb-0 A diferencia del material que se ha descrito, el material no calibrado es empleado para almacenar, mezclar, realizar pruebas de precipitado, entre otras actividades que no requieran un volumen preciso. No es empleado para medir, ya que la medición en este tipo de elementos es inexacta. Como ejemplo de estos es posible mencionar el #[em beaker, erlenmeyer], tubos de ensayo, entre otros. 
 
 </template>
 

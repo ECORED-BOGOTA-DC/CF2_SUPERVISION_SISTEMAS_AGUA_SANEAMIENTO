@@ -25,7 +25,7 @@
     .BGM07.px-md-5.px-4.py-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-7.order-lg-1.order-2
-          p.mb-0 El manejo de diferentes sustancias químicas para el procesamiento de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado a ese producto; es por esto que debe existir un instrumento que le permita a las personas involucradas empleados o comunidad) o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, como almacenarla y cómo reaccionar ante un accidente con la misma.  
+          p.mb-0 El manejo de diferentes sustancias químicas para el procesamiento de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado con ese producto; es por esto que debe existir un instrumento que le permita a las personas involucradas empleados o comunidad o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, como almacenarla y cómo reaccionar ante un accidente con la misma.  
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img02.png')
     
@@ -184,7 +184,7 @@
             li
               i.fas.fa-check-circle(style="color: #4DB1F0;")
               | Apoyo visual.
-          p El editor debe tener en cuenta que la persona que leerá este manual es alguien quien no ha tenido contacto con el equipo por lo que es de vital importancia:
+          p El editor debe tener en cuenta que la persona que leerá este manual es alguien quien no ha tenido contacto con el equipo, por lo que es de vital importancia:
           ul.lista-ul--color
             li
               i.fas.fa-check-circle(style="color: #4DB1F0;")
@@ -197,7 +197,7 @@
               | Utilizar imágenes. La imagen deberá identificar el área de trabajo y cada una de las actividades. Esto ayuda al operador a interpretar la información de una manera más sencilla y recordarla posteriormente.
             li
               i.fas.fa-check-circle(style="color: #4DB1F0;")
-              | Es muy importante integrar cualquier información que directamente está ligada a la operación, por ejemplo, equipo de seguridad necesario, qué hacer en casos de emergencia etcétera.
+              | Es muy importante integrar cualquier información que directamente está ligada a la operación, por ejemplo, equipo de seguridad necesario, qué hacer en casos de emergencia, etcétera.
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img07.svg')
 

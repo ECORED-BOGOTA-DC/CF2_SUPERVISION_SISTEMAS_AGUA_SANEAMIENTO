@@ -40,7 +40,7 @@
       h2 1.1 Variables en la estadística
     
     p Cuando se habla de variable se hace referencia a unas propiedades o características que puede variar, y que son susceptibles de medición. Algunos ejemplos pueden ser la edad, color de ojos, potencial de Hidrógeno (pH), temperatura y conductividad, entre otras.
-    p Atendiendo lo que dicen Castillo y Salazar (2018), estas variables están categorizadas en dos grandes grupos que se describen a continuación:
+    p.mb-5 Atendiendo lo que dicen Castillo y Salazar (2018), estas variables están categorizadas en dos grandes grupos que se describen a continuación:
 
     .row.justify-content-center.mb-4
       .col-xl-10.BG03.px-0
@@ -88,8 +88,13 @@
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
-            .h4 Media aritmética
-            p Busca el valor central del recorrido de la variable según la cantidad de observaciones, en otras palabras, es el promedio de los valores de la muestra (Castillo y Salazar, 2018. p. 50).
+            .h4 Media aritmética  
+            .bloque-texto-b.color-primario.mb-4
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left(style="font-size: 2em")
+                p Busca el valor central del recorrido de la variable según la cantidad de observaciones, en otras palabras, es el promedio de los valores de la muestra.
+                i.fas.fa-quote-right(style="font-size: 2em")
+            .h5.text-end Castillo y Salazar, 2018. p. 50.
             p Su cálculo para datos desagrupados se efectúa mediante la siguiente ecuación:
             .row.justify-content-start
               .col-lg-7.BG05.py-2.px-4
@@ -111,7 +116,12 @@
             .row.justify-content-start.mb-4
               .col-lg-7.BG05.py-2.px-4
                 img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
-            p.mb-0 En los dos casos es necesario primero ordenar los datos de menor a mayor o viceversa (Castillo y Salazar, 2018. pp. 52-53).
+            .bloque-texto-b.color-primario.mb-4
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left(style="font-size: 2em")
+                p En los dos casos es necesario primero ordenar los datos de menor a mayor o viceversa.
+                i.fas.fa-quote-right(style="font-size: 2em")
+            .h5.text-end Castillo y Salazar, 2018. pp. 52-53
           .col-lg-7
             .tarjeta.tarjeta--blanca.pt-4.px-4
               p.mt-5 #[strong Ejemplo:] se realizaron 12 mediciones de caudal obteniendo los siguientes resultados: <br>1,8 - 2,4 - 2 - 1,6 - 1,4 - 1,3 - 1,6 - 1,9 - 2,5 - 2,3 - 2,1 - 1,7
@@ -127,8 +137,13 @@
                   p.mb-0 1,3 - 1,4 - 1,6 - 1,6 - 1,7 - 1,8 - <a style="color: #FF0B0B">1,85</a> - 1,9 - 2 - 2,1 - 2,3 - 2,4 - 2,5
         .row.justify-content-center
           .col-lg-6.mb-lg-0.mb-4
-            .h4 Moda
-            p Es el valor de la variable que más se repite. Un conjunto de datos puede ser unimodal (una sola moda), bimodal (dos modas) o multimodal (más de dos modas) (Castillo y Salazar, 2018. p. 54).
+            .h4 Moda 
+            .bloque-texto-b.color-primario.mb-4
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left(style="font-size: 2em")
+                p Es el valor de la variable que más se repite. Un conjunto de datos puede ser unimodal (una sola moda), bimodal (dos modas) o multimodal (más de dos modas).
+                i.fas.fa-quote-right(style="font-size: 2em")
+            .h5.text-end Castillo y Salazar, 2018. p. 54
           .col-lg-6
             .tarjeta.tarjeta--blanca.pt-4.px-4
               p.mt-5 #[strong Ejemplo:] se realizaron mediciones de caudal obteniendo los siguientes resultados: <br>1,8 - 2,4 - 2 - 1,8 - 1,4 - 1,3 - 1,6 - 1,8 - 2,5 - 2,3 - 2,1 - 1,7
@@ -161,6 +176,9 @@
 
       .row.justify-content-around.align-items-end.mb-4
         .col-lg-8.px-0.order-lg-1.order-2(data-aos="fade-right")
+          .titulo-sexto.color-secundario(data-aos="fade-right")
+            h5 Tabla 1.
+            span Resultados obtenidos
           .tabla-a.mb-4(alt="Muestra una práctica de laboratorio cinco personas diferentes realizaron la medición de pH a la misma muestra de agua")
             table(style="min-width: 600px")
               thead(style="border-color: #00BCD4")
@@ -205,7 +223,7 @@
       .col-lg-8(data-aos="flip-up")
         .cajon.color-acento-botones.p-4
           p La desviación indica que los datos varían en promedio +/- 0,43 en relación con la media (#[em x̄]).
-          p.mb-0 En todos los casos revisados anteriormente es necesario tener presente que el uso de herramientas ofimáticas como las hojas de cálculo, permiten el procesamiento rápido y sencillo de cantidades significativas de datos. Por lo que resulta necesario su estudio y práctica.  
+          p.mb-0 En todos los casos revisados anteriormente, es necesario tener presente que el uso de herramientas ofimáticas, como las hojas de cálculo, permiten el procesamiento rápido y sencillo de cantidades significativas de datos. Por lo que resulta necesario su estudio y práctica.  
       
 </template>
 

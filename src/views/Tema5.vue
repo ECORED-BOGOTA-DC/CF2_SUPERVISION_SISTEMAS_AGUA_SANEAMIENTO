@@ -11,7 +11,7 @@
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema5/img01.svg')
       .col-lg-7
-        p.mb-0 Como ya se ha mencionado el muestreo involucra el uso de diferentes reactivos que son empleados para la preservación de muestras, por lo que es necesario abordar el siguiente tema sobre la preparación de soluciones, brindando de esta manera los conceptos generales que más adelante serán puestos en práctica durante el desempeño en el laboratorio.
+        p.mb-0 Como ya se ha mencionado, el muestreo involucra el uso de diferentes reactivos que son empleados para la preservación de muestras, por lo que es necesario abordar el siguiente tema sobre la preparación de soluciones, brindando de esta manera los conceptos generales que más adelante serán puestos en práctica durante el desempeño en el laboratorio.
     
     separador
     #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")

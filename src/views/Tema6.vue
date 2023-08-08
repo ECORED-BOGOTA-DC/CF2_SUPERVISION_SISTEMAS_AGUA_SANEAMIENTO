@@ -79,7 +79,7 @@
     #t_6_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 6.2 Frecuencia del muestreo
     
-    p.mb-5 La frecuencia con la que se tomarán las muestras puede variar en función de las necesidades de esta. Así mismo dependiendo de su fin es posible que existan tiempos definidos por las autoridades competentes por lo que resulta necesario indagar al respecto.
+    p.mb-5 La frecuencia con la que se tomarán las muestras puede variar en función de las necesidades de esta. Así mismo, dependiendo de su fin, es posible que existan tiempos definidos por las autoridades competentes, por lo que resulta necesario indagar al respecto.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -88,7 +88,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema6/img04.jpg')})`}" data-aos="fade-left"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-right")
-            p.mb-0 En todo caso es posible establecer la frecuencia de muestreo a partir de directrices dadas por organizaciones no gubernamentales, que brindan orientaciones con el objetivo de promover la obtención de resultados confiables. Este es el caso de Icontec y la NTC-ISO 5667-1, Directrices para el diseño de programas y técnicas de muestreo. Disponible en la base de datos de la Biblioteca SENA.
+            p.mb-0 En todo caso, es posible establecer la frecuencia de muestreo a partir de directrices dadas por organizaciones no gubernamentales, que brindan orientaciones con el objetivo de promover la obtención de resultados confiables. Este es el caso de Icontec y la NTC-ISO 5667-1, Directrices para el diseño de programas y técnicas de muestreo. Disponible en la base de datos de la Biblioteca SENA.
     
     .row.justify-content-center.mb-4
       .col-lg(data-aos="flip-up")
