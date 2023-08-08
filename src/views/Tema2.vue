@@ -140,7 +140,7 @@
               .col-auto.BGRS06.px-5.py-3(data-aos="fade-right")
                 .h4.text-white.mb-0 Unidades consistentes   
             p El desarrollo de los protocolos y procedimientos en este y diferentes campos de estudio, como lo menciona Mott, (2006), involucra el uso de ecuaciones, cuyos elementos y resultados deben ser expresados empleando las unidades correctas. Por lo que, si las unidades en la ecuación no son consistentes, las respuestas serán erróneas. 
-            p Por lo anterior, para realizar procedimientos de cancelación de unidades según, Mott (2006), se proponen los siguientes pasos:
+            p Por lo anterior, para realizar procedimientos de cancelación de unidades, según Mott (2006), se proponen los siguientes pasos:
         .col-lg-4.pt-4.d-lg-flex.d-none
           img(src='@/assets/curso/tema2/img10.png' alt="Imagen decorativa")
 
