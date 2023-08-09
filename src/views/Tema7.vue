@@ -33,7 +33,7 @@
                   .col.mb-3.mb-sm-0
                     p.text-white.mb-0 A continuación, podrá profundizar dicha información descargando el documento.
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/Practica_de_Laboratorio_Alistamiento_de_Materiales_para_Muestreo.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario(:href="obtenerLink('/downloads/Practica_de_Laboratorio_Reconocimiento_de_Material_de_Laboratorio.pdf')" target="_blank" type="application/pdf")
                       span(style="color: #000; font-weight: 400") Descargar
                       i.fas.fa-file-download(style="color: #000")
           .BGR11.p-3.mb-4(data-aos="flip-up")
@@ -46,7 +46,7 @@
                   .col.mb-3.mb-sm-0
                     p.text-white.mb-0 A continuación, podrá profundizar dicha información descargando el documento.
                   .col-sm-auto
-                    a.boton.color-primario(:href="obtenerLink('/downloads/Practica_de_Laboratorio_Reconocimiento_de_Material_de_Laboratorio.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario(:href="obtenerLink('/downloads/Practica_de_Laboratorio_Alistamiento_de_Materiales_para_Muestreo.pdf')" target="_blank" type="application/pdf")
                       span(style="color: #000; font-weight: 400") Descargar
                       i.fas.fa-file-download(style="color: #000")
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
