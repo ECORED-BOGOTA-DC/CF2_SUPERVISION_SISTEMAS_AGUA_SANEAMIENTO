@@ -185,11 +185,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -197,7 +192,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/921200_CF02_DU.pdf',
+        download: 'downloads/921200_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -211,38 +206,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '4. Fichas técnicas, manuales y calibración de equipos',
-      referencia:
-        'Centro de Gestión Industrial. (2020). Servicio Nacional de Aprendizaje SENA. Ficha de seguridad del ácido sulfúrico',
-      tipo: 'Ficha de seguridad',
-      descarga: '/downloads/Ficha_de_Seguridad_Acido_Sulfurico.pdf',
-    },
-    {
-      tema: '6. Realización de muestreo',
-      referencia:
-        'Centro de Gestión Industrial. (2020). Servicio Nacional de Aprendizaje SENA. Práctica de laboratorio. Alistamiento y esterilización de materiales para el muestreo de agua para análisis microbiológico.',
-      tipo: 'Práctica de laboratorio Alistamiento microbiológico',
-      descarga:
-        '/downloads/Practica_de_Laboratorio_Alistamiento_de_Materiales_para_Muestreo.pdf',
-    },
-    {
-      tema: '6. Realización de muestreo',
-      referencia:
-        'Centro de Gestión Industrial. (2020). Servicio Nacional de Aprendizaje SENA. Propuesta de práctica de laboratorio.',
-      tipo: 'Práctica de laboratorio Instrumentación',
-      descarga:
-        '/downloads/Practica_de_Laboratorio_Reconocimiento_de_Material_de_Laboratorio.pdf',
-    },
-    {
-      tema: '6. Realización de muestreo',
-      referencia:
-        'Centro de Gestión Industrial. (2020). Servicio Nacional de Aprendizaje SENA. Propuesta de práctica de laboratorio.',
-      tipo: 'Práctica de laboratorio soluciones',
-      descarga: '/downloads/Practica_Laboratorio_Soluciones.pdf',
-    },
-  ],
   glosario: [
     {
       termino: 'Análisis físico y químico del agua',
